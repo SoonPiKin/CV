@@ -1,113 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Bao's personal page</title>
-</head>
-<body>
-    <table cellpadding="20px" align ="center">
-        <tr>
-            <td><img style="width: 200px ;border-radius:50% " src="img/Avatar-Photo.jpeg" alt="Avatar-Photo"></td>
-            <td>    
-                <h1>Lê Tấn Bảo Bảo</h1>
-                <p>University Of Science</p>
-                <p>Electronic Telecommunications Engineering</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3 align ="center">Book and Teaching</h3>
-    <ul>
-        <li>The complete IOS App Development Bootcamp</li>
-        <li>The complete C/C++</li>
-        <li>The complete Web Development Bootcamp</li>
-    </ul>
-    <br>
-    <hr>
-    <h3 align ="center">Word Experience</h3>
-    <table cellpadding="20px" align ="center" border="10px" >
-        <thead>
-            <tr>
-                <th>        </th>
-                <th>Thu 2</th>
-                <th>Thu 3</th>
-                <th>Thu 4</th>
-                <th>Thu 5</th>
-                <th>Thu 6</th>
-                <th>Thu 7</th>
-                <th>Chu Nhat</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr align =center>
-                <th>Buoi Sang</th>
-                <td>Vat li dai cuong 1</td>
-                <td>Analog electric</td>
-                <td>        </td>
-                <td>Tu Tuong Ho Chi Minh</td>
-                <td>Tam li dai cuong</td>
-                <td>Chu Nghia Xa Hoi Khoa Hoc</td>
-                <td>Di Ngu</td>
-            </tr> 
-            <tr align =center>
-                <th>Buoi Chieu</th>
-                <td>Dealine</td>
-                <td>Dealine</td>
-                <td>Dealine</td>
-                <td>Dealine</td>
-                <td>Dealine</td>
-                <td>Dealine</td>
-                <td>Dealine</td>
-            </tr>
-            <tr align =center>
-                <th>Buoi toi</th>
-                <td>Di Ngu</td>
-                <td>Di Ngu</td>
-                <td>Di Ngu</td>
-                <td>Di Ngu</td>
-                <td>Di Ngu</td>
-                <td>Di Ngu</td>
-                <td>Di Ngu</td>
-            </tr>
-        </tbody>
-    </table>
-    <br>
-    <hr>
-    <h3 align ="center">Skills</h3>
-    <table align ="center" border="2.5px">
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <td>Developer IOS</td>
-                        <td>⭐️⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>Developer C/C++</td>
-                        <td>⭐️⭐️⭐️</td>
-                    </tr>
-                </table>   
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>Web Development</td>
-                        <td>⭐️⭐️⭐️⭐️⭐️</td>
-                    </tr>
-                    <tr>
-                        <td>Python Development</td>
-                        <td>⭐️⭐️⭐️</td>
-                    </tr>
-                </table>   
-            </td>
-        </tr>
-    </table>
-    <br>
-    <hr>
-    <a href="/Bao-CV/Content.html">Content</a>
-    <br>
-    <a href="/Bao-CV/Information.html">Information</a>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bao Bao</title>
+        <link rel="stylesheet" href="/CSS/style.css">
+        <!--rel là Yêu cầu bắt buộc. Chỉ định mối quan hệ giữa tài liệu hiện tại và tài liệu được liên kết-->
+        <link rel="icon" href="/img/Logo-title.ico">
+        <!-- chèn font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat:ital,wght@0,500;0,600;1,500;1,600&family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Div la mot phan tu cua html dat biet cho phep noi dung toi phan chia noi dung tren trang web thanh 1 cau truc dev rieng biet-->
+        <div class="top-container">
+            <img class="top-cloud" src="/img/cloud.png" alt="cloud-img" class="cloud-img">
+            <h1>I'am Bao</h1>
+            <h2 class="bottom-heading">a <span class="pro">pro</span>grammer.</h2>
+            <img class="bottom-cloud" src="/img/cloud.png" alt="cloud-img" class="cloud-img">
+            <img class="bottom-mountain" src="/img/mountain.png" alt="mountain-img" class="mountain-img">
+        </div>
+
+        <!-- ------------------------------------------middle-contrane-------------------------------------------- -->
+
+      <div class="middle-container">
+        <div class="profile">
+          <img class="Avatar-profile" src="/img/Avatar-Photo.jpeg" alt="">
+          <h2>Hello.</h2>
+          <p class="intro">I am an Web Developer.I love my girlfriend so much so much💖</p>
+        </div>
+
+        <hr>
+
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="VSC-IMG" src="/img/Visual Studio Code.gif" alt="VSC-IMG">
+            <h3>Design & Developer</h3>
+            <p> I start learning to code when I was 18 years old because I wanted to make my own video game. Currently I am C++ and Java programmer and full stack Web Developer</p>
+          </div>
+          <div class="skill-row">
+            <img class="chillies-img" src="/img/chillies.png" alt="chillies-img">
+            <h3>Hot Wings Challenge</h3>
+            <p>This award I received when I went to eat bun rieu with a huge amount of chili in a bowl of vermicelli😋. I feel very honored to receive this award at Bun rieu shop.😝</p>
+          </div>
+        </div>
+
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>You like me but unfortunately I don't like you.</h3>
+          <p class="content-message">If you like me but don't stop take 5 seconds and look at my profile and try not to like me anymore cause i already have a boyfriend.</p>
+          <a class="button" href="mailto:lcho332002@email.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      <!-- ------------------------------------------bottom-contrane-------------------------------------------- -->
+
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://www.facebook.com/AnhThu.BaoBao150521/">Facebook</a>
+        <a class="footer-link" href="https://baobao0303.github.io/My-Site/">Website</a>
+        <p class="content-footer">© 2021 Lê Tấn Bảo Bảo.</p>
+      </div>
+
+    </body>
 </html>
